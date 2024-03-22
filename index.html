@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fetching APIs</title>
+  <!-- ? ======> Favicon  -->
+  <link rel="icon" href="./images/favicon.png" />
+  <!-- ? ======> Google Fonts [Source Sans Pro + Gentium Book Plus] -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+Syloti+Nagri&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
+    rel="stylesheet" />
+  <!-- ? ======> FontAwesome Library Icons  -->
+  <link rel="stylesheet" href="./CSS/all.min.css" />
+  <!-- ? ======> Bootstrap  Icons  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <!-- ? ======> Bootstrap Library  -->
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <!-- ? ======> Main Stylesheet  -->
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">API NEWS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" data-code="eg">Egypt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-code="us">United States</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-code="ru">Russia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-code="fr">France</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-code="ca">Canada</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-code="kr">korea</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <section class="col-md-4 bg-info category">
+          <ul class="nav fw-semibold flex-column pt-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" data-category="sports">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-category="health">Health</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-category="business">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-category="technology">technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-category="science">science</a>
+            </li>
+          </ul>
+        </section>
+        <section class="ms-md-2 col-md-7 mt-sm-2">
+          <div class="row g-4" id="articles">
+
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- ! ======> Main Js file -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
